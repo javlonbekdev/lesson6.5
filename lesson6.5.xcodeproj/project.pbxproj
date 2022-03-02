@@ -13,6 +13,8 @@
 		5D4B5AB227A8446900BBA2EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4B5AB127A8446900BBA2EA /* Preview Assets.xcassets */; };
 		5D4B5AB427A8446900BBA2EA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B5AB327A8446900BBA2EA /* Persistence.swift */; };
 		5D4B5AB727A8446900BBA2EA /* lesson6_5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B5AB527A8446900BBA2EA /* lesson6_5.xcdatamodeld */; };
+		5D4B5ABE27A845D100BBA2EA /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B5ABD27A845D100BBA2EA /* TaskCell.swift */; };
+		5D4B5AC027A848D500BBA2EA /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4B5ABF27A848D500BBA2EA /* DetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		5D4B5AB127A8446900BBA2EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D4B5AB327A8446900BBA2EA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5D4B5AB627A8446900BBA2EA /* lesson6_5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lesson6_5.xcdatamodel; sourceTree = "<group>"; };
+		5D4B5ABD27A845D100BBA2EA /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		5D4B5ABF27A848D500BBA2EA /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				5D4B5AAA27A8446800BBA2EA /* lesson6_5App.swift */,
 				5D4B5AAC27A8446800BBA2EA /* ContentView.swift */,
+				5D4B5ABF27A848D500BBA2EA /* DetailScreen.swift */,
+				5D4B5ABD27A845D100BBA2EA /* TaskCell.swift */,
 				5D4B5AAE27A8446900BBA2EA /* Assets.xcassets */,
 				5D4B5AB327A8446900BBA2EA /* Persistence.swift */,
 				5D4B5AB527A8446900BBA2EA /* lesson6_5.xcdatamodeld */,
@@ -145,8 +151,10 @@
 			files = (
 				5D4B5AB727A8446900BBA2EA /* lesson6_5.xcdatamodeld in Sources */,
 				5D4B5AB427A8446900BBA2EA /* Persistence.swift in Sources */,
+				5D4B5AC027A848D500BBA2EA /* DetailScreen.swift in Sources */,
 				5D4B5AAD27A8446800BBA2EA /* ContentView.swift in Sources */,
 				5D4B5AAB27A8446800BBA2EA /* lesson6_5App.swift in Sources */,
+				5D4B5ABE27A845D100BBA2EA /* TaskCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
